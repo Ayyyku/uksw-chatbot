@@ -9,23 +9,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
-<body class="bg-gray-100 h-screen flex items-center justify-center">
-  <div class="w-full max-w-2xl bg-white rounded-lg shadow-md">
-    <div class="border-b p-4 bg-gray-50 rounded-t-lg">
-      <div class="flex justify-between items-center">
-        <h1 class="text-xl font-semibold text-gray-800">UKSW Chatbot</h1>
+<body class="bg-yellow-400 h-screen flex items-center justify-center px-8 pb-20 pt-16">
+  <div class="w-full h-full flex flex-col max-w-2xl bg-white rounded-xl border-4 border-gray-900 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+    <div class="border-b p-4 bg-gray-50 rounded-t-lg border-gray-900 border-b-4">
+      <div class="flex justify-center items-center">
+        <h1 class="text-2xl font-black text-gray-900 uppercase tracking-tight">UKSW Chatbot</h1>
       </div>
     </div>
 
 
-    <div id="chat-container" class="h-[500px] overflow-y-auto p-4 space-y-4">
+    <div id="chat-container" class="flex-1 overflow-y-auto p-4 space-y-4">
       <div id="chat-response" class="space-y-4"></div>
     </div>
-
-    <form id="chatForm" onsubmit="handleSubmit(event)" class="border-t p-4">
+    <form id="chatForm" onsubmit="handleSubmit(event)" class="border-t p-4 border-gray-900 border-t-4">
       <div class="flex space-x-4">
-        <input type="text" name="message" id="messageInput" class="flex-1 border rounded-full px-4 py-2 focus:outline-none focus:border-blue-500" placeholder="Tanya tanya tentang UKSW..." autocomplete="off">
-        <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition-colors">
+        <input type="text" name="message" id="messageInput" class="flex-1 border rounded-full border-gray-900 border-4 px-4 py-2 focus:outline-none focus:border-blue-500 focus:translate-y-1 focus:translate-x-1 focus:shadow-blue-500 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] font-bold focus:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] transition-all" placeholder="Tanya tanya tentang UKSW..." autocomplete="off">
+        <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded-full border-4 border-gray-900 font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-1 hover:translate-x-1 hover:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] transition-all">
           Send
         </button>
       </div>
@@ -35,12 +34,12 @@
   </div>
 
   <div class="fixed bottom-4 w-full flex justify-center space-x-4">
-    <a href="https://github.com/vincnx" target="_blank" class="text-gray-600 hover:text-gray-900 bg-white p-3 rounded-full shadow-lg transition-colors">
-      <i class="fab fa-github text-xl"></i>
+    <a href="https://github.com/vincnx" target="_blank" class="text-gray-600 hover:text-gray-900">
+      <i class="fab fa-github text-2xl"></i>
     </a>
 
-    <a href="https://www.linkedin.com/in/vincent-exelcio-susanto" target="_blank" class="text-gray-600 hover:text-gray-900 bg-white p-3 rounded-full shadow-lg transition-colors">
-      <i class="fab fa-linkedin text-xl"></i>
+    <a href="https://www.linkedin.com/in/vincent-exelcio-susanto" target="_blank" class="text-gray-600 hover:text-gray-900">
+      <i class="fab fa-linkedin text-2xl"></i>
     </a>
   </div>
 
@@ -55,7 +54,6 @@
 
     if (!message.trim()) return;
 
-    // Add user message
     addMessage('user', message);
     messageInput.value = '';
 
@@ -71,7 +69,6 @@
       });
 
       const data = await response.json();
-      // Add AI response
       addMessage('ai', data);
     } catch (error) {
       console.error('Error:', error);
@@ -86,28 +83,27 @@
     if (type === 'user') {
       messageDiv.className = 'flex justify-end';
       messageDiv.innerHTML = `
-          <div class="bg-blue-500 text-white rounded-lg py-2 px-4 max-w-[70%]">
+          <div class="bg-blue-500 text-white border-4 border-gray-900 font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rounded-lg py-2 px-4 max-w-[70%]">
             ${content}
           </div>
         `;
     } else if (type === 'ai') {
       messageDiv.className = 'flex justify-start';
       messageDiv.innerHTML = `
-          <div class="bg-gray-200 text-gray-800 rounded-lg py-2 px-4 max-w-[70%]">
+          <div class="bg-gray-200 text-gray-800 border-4 border-gray-900 font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rounded-lg py-2 px-4 max-w-[70%]">
             ${content}
           </div>
         `;
     } else {
       messageDiv.className = 'flex justify-center';
       messageDiv.innerHTML = `
-          <div class="bg-red-100 text-red-600 rounded-lg py-2 px-4">
+          <div class="bg-red-100 text-red-600 border-4 border-gray-900 font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rounded-lg py-2 px-4">
             ${content}
           </div>
         `;
     }
 
     chatContainer.appendChild(messageDiv);
-    // Scroll to bottom
     const container = document.getElementById('chat-container');
     container.scrollTop = container.scrollHeight;
   }
