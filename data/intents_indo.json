@@ -1,0 +1,57 @@
+{"intents": [
+        {"tag": "sapaan",
+         "patterns": ["Hai", "Halo", "Apa kabar", "Bagaimana kabarmu?"],
+         "responses": ["Halo", "Senang bertemu denganmu", "Hai, apakah ada yang bisa saya bantu?"],
+         "context_set": ""
+        },
+        {"tag": "selamat tinggal",
+         "patterns": ["Bye", "Sampai bertemu lain kali", "Selamat tinggal"],
+         "responses": ["Sampai bertemu lain kali, terimakasih telah datang", "Have a nice day", "Bye! Jangan lupa kembali di lain waktu"]
+        },
+        {"tag": "terimakasih",
+         "patterns": ["Terimakasih", "Itu sangat membantu"],
+         "responses": ["Senang bisa membantu anda", "Sama-sama"]
+        },
+        {"tag": "berdirinya uksw",
+         "patterns": ["Kapan UKSW didirikan?", "UKSW berdiri tahun berapa?", "UKSW berdiri pada tahun?" ],
+         "responses": ["UKSW pertama kali didirikan pada 30 November 1956."]
+        },
+        {"tag": "jumlah fakultas",
+         "patterns": ["Berapa jumlah fakultas di UKSW?", "fakultas di UKSW ada berapa?"],
+         "responses": ["saat ini UKSW memiliki 14 fakultas"]
+        },
+	      {"tag": "jumlah prodi",
+         "patterns": ["Berapa prodi di UKSW?", "prodi di UKSW ada berapa?", "Berapa program studi di UKSW?", "program studi di UKSW ada berapa?"],
+         "responses": ["saat ini UKSW memiliki 63 program studi"]
+        },
+        {"tag": "letak kampus",
+         "patterns": ["Dimana letak kampus UKSW?", "kampus UKSW ada dimana?" ],
+         "responses": ["Kampus UKSW berada di kota Salatiga, Jawa Tengah"]
+        },
+        {"tag": "biaya sks",
+         "patterns": ["Berapa biaya sks di uksw?", "harga sks di uksw berapa?", "berapa biaya kuliah per sks di uksw?"],
+         "responses": ["biaya SKS di UKSW berkisar dari Rp. 180.000 sampai Rp. 250.000 tergantung dari program studi"]
+        },
+        {"tag": "siapa rektor uksw",
+         "patterns": ["rektor uksw siapa", "siapa rektor uksw", "rektor uksw"],
+         "responses": ["Rektor UKSW saat ini adalah Intiyas Utami, S.E., M.Si., Ak."]
+        },
+        {"tag": "website uksw",
+         "patterns": ["website uksw apa", "apa website uksw", "web uksw apa", "dimana web uksw"],
+         "responses": ["kamu bisa akses website uksw melalui link berikut https://www.uksw.edu"]
+        },
+        {"tag": "letak fti",
+         "patterns": ["gedung fti uksw ada dimana", "gedung fti ada dimana", "gedung fti uksw"],
+         "responses": ["Gedung FTI UKSW terletak di jalan Jl. Dr. O. Notohamidjojo No.1 - 10, Blotongan"]
+        },
+        {"tag": "dekan fti",
+         "patterns": ["siapa dekan fti uksw", "nama dekan fti uksw"],
+         "responses": ["Dekan FTI UKSW saat ini adalah Prof. Ir. Daniel H.F. Manongga, M.Sc., Ph.D."]
+        },
+        {"tag": "wakil dekan fti",
+         "patterns": ["siapa wakil dekan fti uksw", "nama wakil dekan fti uksw"],
+         "responses": ["Wakil dekan FTI UKSW saat ini adalah Hendry, S.Kom, M.Kom, Ph.D."]
+        }
+   ]
+}
+
