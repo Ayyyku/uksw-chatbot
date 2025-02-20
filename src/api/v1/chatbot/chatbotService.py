@@ -12,6 +12,8 @@ INTENTS_PATH = 'data/intents_indo.json'
 with open(INTENTS_PATH, 'r') as f:
     intents = json.load(f)
 
+PROBABILITY_THRESHOLD = 0.55
+
 class ChatbotService:
 
     def __init__(self):
@@ -42,7 +44,7 @@ class ChatbotService:
             probs = torch.softmax(output, dim = 1)
             prob = probs[0][predicted.item()]
         
-            if prob.item() > 0.55:
+            if prob.item() > PROBABILITY_THRESHOLD:
                 for intent in intents[ 'intents']:
                     if tag == intent['tag']:
                         response = random.choice(intent['responses'])
