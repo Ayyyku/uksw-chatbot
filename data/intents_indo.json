@@ -744,6 +744,19 @@
       "responses": [
         "Mahasiswa FTI UKSW dapat memberikan umpan balik melalui survei, forum diskusi, atau langsung kepada dosen dan staf untuk meningkatkan kualitas pendidikan."
       ]
+    },
+    {
+      "tag": "fakultas_terbaik",
+      "patterns": [
+        "apa jurusan terbaik di fti uksw?",
+        "Fakultas apa yang paling hebat di fti?",
+        "Jurusan apa yang paling populer di fti uksw?",
+        "Fakultas mana yang paling terkenal di fti uksw?",
+        "prodi apa yang paling hebat di fti uksw?"
+      ],
+      "responses": [
+        "Jelas prodi teknik informatika dong!!!"
+      ]
     }
   ]
 }
