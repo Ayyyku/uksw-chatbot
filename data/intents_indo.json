@@ -2,7 +2,12 @@
   "intents": [
     {
       "tag": "sapaan",
-      "patterns": ["Hai", "Halo", "Apa kabar", "Bagaimana kabarmu?"],
+      "patterns": [
+        "Hai",
+        "Halo",
+        "Apa kabar",
+        "Bagaimana kabarmu?"
+      ],
       "responses": [
         "Halo",
         "Senang bertemu denganmu",
@@ -11,7 +16,11 @@
     },
     {
       "tag": "selamat tinggal",
-      "patterns": ["Bye", "Sampai bertemu lain kali", "Selamat tinggal"],
+      "patterns": [
+        "Bye",
+        "Sampai bertemu lain kali",
+        "Selamat tinggal"
+      ],
       "responses": [
         "Sampai bertemu lain kali, terimakasih telah datang",
         "Have a nice day",
@@ -28,7 +37,10 @@
         "Thanks",
         "Thank you"
       ],
-      "responses": ["Senang bisa membantu anda", "Sama-sama"]
+      "responses": [
+        "Senang bisa membantu anda",
+        "Sama-sama"
+      ]
     },
     {
       "tag": "berdirinya uksw",
@@ -43,7 +55,9 @@
         "UKSW sudah berdiri sejak kapan?",
         "Sejak tahun berapa UKSW ada?"
       ],
-      "responses": ["UKSW pertama kali didirikan pada 30 November 1956."]
+      "responses": [
+        "UKSW pertama kali didirikan pada 30 November 1956."
+      ]
     },
     {
       "tag": "jumlah fakultas",
@@ -55,7 +69,9 @@
         "Fakultas yang ada di UKSW berapa banyak?",
         "Bisa sebutkan jumlah fakultas di UKSW?"
       ],
-      "responses": ["saat ini UKSW memiliki 14 fakultas"]
+      "responses": [
+        "saat ini UKSW memiliki 14 fakultas"
+      ]
     },
     {
       "tag": "jumlah prodi",
@@ -69,7 +85,9 @@
         "Bisa sebutkan jumlah prodi di UKSW?",
         "Jumlah program studi di UKSW berapa?"
       ],
-      "responses": ["saat ini UKSW memiliki 63 program studi"]
+      "responses": [
+        "saat ini UKSW memiliki 63 program studi"
+      ]
     },
     {
       "tag": "letak kampus",
@@ -79,7 +97,9 @@
         "Di mana lokasi kampus UKSW?",
         "UKSW dimana"
       ],
-      "responses": ["Kampus UKSW berada di kota Salatiga, Jawa Tengah"]
+      "responses": [
+        "Kampus UKSW berada di kota Salatiga, Jawa Tengah"
+      ]
     },
     {
       "tag": "biaya sks",
@@ -160,6 +180,569 @@
       ],
       "responses": [
         "Wakil dekan FTI UKSW saat ini adalah Hendry, S.Kom, M.Kom, Ph.D."
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "Apa itu FTI UKSW?",
+        "Informasi tentang Fakultas Teknologi Informasi UKSW",
+        "FTI UKSW itu apa?"
+      ],
+      "responses": [
+        "Fakultas Teknologi Informasi (FTI) di Universitas Kristen Satya Wacana (UKSW) menawarkan program studi di bidang teknologi informasi seperti Teknik Informatika, Sistem Informasi, dan Desain Komunikasi Visual."
+      ]
+    },
+    {
+      "tag": "program_studi",
+      "patterns": [
+        "Program studi apa saja yang ada di FTI UKSW?",
+        "Jurusan di FTI UKSW",
+        "Apa saja jurusan di Fakultas Teknologi Informasi UKSW?"
+      ],
+      "responses": [
+        "FTI UKSW menawarkan program studi seperti Teknik Informatika, Sistem Informasi, dan Desain Komunikasi Visual."
+      ]
+    },
+    {
+      "tag": "fasilitas",
+      "patterns": [
+        "Fasilitas apa saja yang ada di FTI UKSW?",
+        "Apa saja fasilitas di Fakultas Teknologi Informasi UKSW?",
+        "Laboratorium di FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW dilengkapi dengan laboratorium komputer, ruang kelas multimedia, dan perpustakaan digital untuk mendukung proses belajar mengajar."
+      ]
+    },
+    {
+      "tag": "kegiatan",
+      "patterns": [
+        "Kegiatan mahasiswa di FTI UKSW",
+        "Organisasi mahasiswa di FTI UKSW",
+        "Apa saja kegiatan di Fakultas Teknologi Informasi UKSW?",
+        "organisasi di fti",
+        "organisasi di fti uksw"
+      ],
+      "responses": [
+        "FTI UKSW memiliki berbagai kegiatan dan organisasi mahasiswa seperti himpunan mahasiswa, komunitas pengembang, dan partisipasi dalam lomba teknologi informasi."
+      ]
+    },
+    {
+      "tag": "kerjasama",
+      "patterns": [
+        "Kerjasama FTI UKSW",
+        "Mitra FTI UKSW",
+        "Apakah FTI UKSW memiliki kerjasama dengan perusahaan?"
+      ],
+      "responses": [
+        "FTI UKSW menjalin kerjasama dengan berbagai institusi dan perusahaan teknologi untuk meningkatkan kualitas pendidikan dan membuka peluang magang bagi mahasiswa."
+      ]
+    },
+    {
+      "tag": "prospek_karir",
+      "patterns": [
+        "Prospek karir lulusan FTI UKSW",
+        "Karir setelah lulus dari FTI UKSW",
+        "Peluang kerja untuk lulusan Fakultas Teknologi Informasi UKSW"
+      ],
+      "responses": [
+        "Lulusan FTI UKSW memiliki prospek karir yang luas seperti pengembang perangkat lunak, analis sistem, desainer grafis, dan manajer proyek IT."
+      ]
+    },
+    {
+      "tag": "contact_information",
+      "patterns": [
+        "Bagaimana cara menghubungi FTI UKSW?",
+        "Kontak FTI UKSW",
+        "Alamat FTI UKSW"
+      ],
+      "responses": [
+        "Anda dapat menghubungi FTI UKSW melalui email di fti@uksw.edu atau telepon di (0298) 123456. Alamat: Jl. Diponegoro No.52-60, Salatiga, Jawa Tengah."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "Bagaimana cara mendaftar ke FTI UKSW?",
+        "Proses pendaftaran FTI UKSW",
+        "Syarat masuk FTI UKSW"
+      ],
+      "responses": [
+        "Proses pendaftaran ke FTI UKSW meliputi pengisian formulir online, pengumpulan dokumen, dan mengikuti tes seleksi. Informasi lebih lanjut dapat ditemukan di situs resmi UKSW."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Beasiswa di FTI UKSW",
+        "Apakah ada beasiswa di FTI UKSW?",
+        "Beasiswa untuk mahasiswa FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW menawarkan berbagai beasiswa berdasarkan prestasi akademik dan kebutuhan finansial. Informasi lebih lanjut dapat diperoleh dari bagian kemahasiswaan."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Acara di FTI UKSW",
+        "Seminar di FTI UKSW",
+        "Kegiatan terbaru di FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW secara rutin mengadakan seminar, workshop, dan konferensi yang dapat diikuti oleh mahasiswa dan umum. Cek kalender acara di situs resmi untuk informasi terbaru."
+      ]
+    },
+    {
+      "tag": "alumni_success_stories",
+      "patterns": [
+        "Cerita sukses alumni FTI UKSW",
+        "Alumni terkenal dari FTI UKSW",
+        "Prestasi alumni FTI UKSW"
+      ],
+      "responses": [
+        "Banyak alumni FTI UKSW yang sukses berkarir di perusahaan teknologi terkemuka, seperti Google dan Microsoft. Mereka sering berbagi pengalaman melalui seminar dan acara kampus."
+      ]
+    },
+    {
+      "tag": "faq",
+      "patterns": [
+        "Pertanyaan umum tentang FTI UKSW",
+        "FAQ FTI UKSW",
+        "Informasi umum FTI UKSW"
+      ],
+      "responses": [
+        "Untuk pertanyaan umum, Anda dapat mengunjungi halaman FAQ di situs resmi FTI UKSW atau menghubungi layanan informasi kampus."
+      ]
+    },
+    {
+      "tag": "curriculum_overview",
+      "patterns": [
+        "Apa saja mata kuliah di FTI UKSW?",
+        "Kurikulum Fakultas Teknologi Informasi UKSW",
+        "Mata kuliah utama di FTI UKSW"
+      ],
+      "responses": [
+        "Kurikulum di FTI UKSW mencakup mata kuliah seperti Pemrograman Dasar, Basis Data, Jaringan Komputer, dan Pengembangan Web. Setiap program studi memiliki mata kuliah spesifik yang dirancang untuk memenuhi kebutuhan industri."
+      ]
+    },
+    {
+      "tag": "internship_opportunities",
+      "patterns": [
+        "Peluang magang di FTI UKSW",
+        "Apakah FTI UKSW menyediakan magang?",
+        "Magang untuk mahasiswa FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW bekerja sama dengan berbagai perusahaan untuk menyediakan peluang magang bagi mahasiswa. Mahasiswa didorong untuk mengambil magang sebagai bagian dari pengalaman belajar mereka."
+      ]
+    },
+    {
+      "tag": "research_opportunities",
+      "patterns": [
+        "Peluang penelitian di FTI UKSW",
+        "Apakah ada penelitian di FTI UKSW?",
+        "Kegiatan penelitian di Fakultas Teknologi Informasi UKSW"
+      ],
+      "responses": [
+        "Mahasiswa FTI UKSW memiliki kesempatan untuk terlibat dalam proyek penelitian di bawah bimbingan dosen. Penelitian ini sering kali berfokus pada inovasi teknologi dan aplikasi praktis."
+      ]
+    },
+    {
+      "tag": "student_testimonials",
+      "patterns": [
+        "Testimoni mahasiswa FTI UKSW",
+        "Pengalaman mahasiswa di FTI UKSW",
+        "Apa kata mahasiswa tentang FTI UKSW?"
+      ],
+      "responses": [
+        "Mahasiswa FTI UKSW sering menyatakan bahwa mereka mendapatkan pengalaman belajar yang berharga dan dukungan yang baik dari dosen. Banyak yang merasa siap untuk memasuki dunia kerja setelah lulus."
+      ]
+    },
+    {
+      "tag": "clubs_and_organizations",
+      "patterns": [
+        "Klub di FTI UKSW",
+        "Organisasi mahasiswa di Fakultas Teknologi Informasi",
+        "Apa saja klub di FTI UKSW?"
+      ],
+      "responses": [
+        "FTI UKSW memiliki berbagai klub dan organisasi, termasuk klub pemrograman, klub desain, dan komunitas teknologi. Klub-klub ini memberikan kesempatan bagi mahasiswa untuk berkolaborasi dan mengembangkan keterampilan."
+      ]
+    },
+    {
+      "tag": "international_programs",
+      "patterns": [
+        "Program internasional di FTI UKSW",
+        "Pertukaran pelajar di FTI UKSW",
+        "Kerjasama internasional FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW menawarkan program pertukaran pelajar dengan universitas luar negeri, memberikan kesempatan bagi mahasiswa untuk belajar di luar negeri dan mendapatkan pengalaman internasional."
+      ]
+    },
+    {
+      "tag": "career_services",
+      "patterns": [
+        "Layanan karir di FTI UKSW",
+        "Bagaimana FTI UKSW membantu mahasiswa mencari kerja?",
+        "Dukungan karir untuk mahasiswa FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW menyediakan layanan karir yang membantu mahasiswa dalam penulisan CV, persiapan wawancara, dan pencarian pekerjaan. Mereka juga mengadakan job fair dan seminar karir."
+      ]
+    },
+    {
+      "tag": "workshops_and_training",
+      "patterns": [
+        "Pelatihan di FTI UKSW",
+        "Workshop untuk mahasiswa FTI UKSW",
+        "Apa saja workshop yang diadakan di FTI UKSW?"
+      ],
+      "responses": [
+        "FTI UKSW secara rutin mengadakan workshop dan pelatihan untuk meningkatkan keterampilan teknis mahasiswa, seperti pemrograman, desain grafis, dan manajemen proyek."
+      ]
+    },
+    {
+      "tag": "student_exchange_programs",
+      "patterns": [
+        "Program pertukaran pelajar di FTI UKSW",
+        "Apakah FTI UKSW memiliki program pertukaran?",
+        "Pertukaran mahasiswa di Fakultas Teknologi Informasi UKSW"
+      ],
+      "responses": [
+        "FTI UKSW memiliki program pertukaran pelajar dengan beberapa universitas di luar negeri, memberikan kesempatan bagi mahasiswa untuk belajar dan berinteraksi dengan budaya baru."
+      ]
+    },
+    {
+      "tag": "industry_partnerships",
+      "patterns": [
+        "Kemitraan industri FTI UKSW",
+        "Perusahaan yang bekerja sama dengan FTI UKSW",
+        "FTI UKSW dan industri"
+      ],
+      "responses": [
+        "FTI UKSW menjalin kemitraan dengan berbagai perusahaan teknologi untuk mendukung pendidikan, penelitian, dan penempatan kerja bagi mahasiswa."
+      ]
+    },
+    {
+      "tag": "extracurricular_activities",
+      "patterns": [
+        "Kegiatan ekstrakurikuler di FTI UKSW",
+        "Apa saja kegiatan di luar kelas di FTI UKSW?",
+        "Organisasi ekstrakurikuler di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "Mahasiswa FTI UKSW dapat berpartisipasi dalam berbagai kegiatan ekstrakurikuler, termasuk olahraga, seni, dan organisasi sosial yang mendukung pengembangan diri."
+      ]
+    },
+    {
+      "tag": "online_learning_resources",
+      "patterns": [
+        "Sumber daya pembelajaran online di FTI UKSW",
+        "Apakah FTI UKSW menyediakan pembelajaran online?",
+        "Platform belajar online di FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW menyediakan akses ke berbagai sumber daya pembelajaran online, termasuk platform e-learning dan materi kuliah digital untuk mendukung proses belajar mahasiswa."
+      ]
+    },
+    {
+      "tag": "accreditation",
+      "patterns": [
+        "Akreditasi FTI UKSW",
+        "Apakah FTI UKSW terakreditasi?",
+        "Status akreditasi Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW memiliki akreditasi dari Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT), yang menunjukkan bahwa program studi di fakultas ini memenuhi standar kualitas pendidikan yang ditetapkan."
+      ]
+    },
+    {
+      "tag": "community_engagement",
+      "patterns": [
+        "Keterlibatan FTI UKSW dalam masyarakat",
+        "Pengabdian masyarakat oleh FTI UKSW",
+        "FTI UKSW dan kegiatan sosial"
+      ],
+      "responses": [
+        "FTI UKSW aktif dalam kegiatan pengabdian masyarakat, termasuk program pelatihan teknologi untuk masyarakat dan proyek sosial yang melibatkan mahasiswa."
+      ]
+    },
+    {
+      "tag": "technology_trends",
+      "patterns": [
+        "Tren teknologi terbaru di FTI UKSW",
+        "Apa saja teknologi yang diajarkan di FTI UKSW?",
+        "Inovasi teknologi di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW mengajarkan berbagai tren teknologi terbaru, termasuk kecerdasan buatan, big data, dan pengembangan aplikasi mobile, untuk mempersiapkan mahasiswa menghadapi tantangan industri."
+      ]
+    },
+    {
+      "tag": "guest_lectures",
+      "patterns": [
+        "Kuliah tamu di FTI UKSW",
+        "Siapa pembicara tamu di FTI UKSW?",
+        "Acara kuliah tamu di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW secara rutin mengadakan kuliah tamu dengan pembicara dari industri dan akademisi terkemuka, memberikan wawasan dan pengalaman langsung kepada mahasiswa."
+      ]
+    },
+    {
+      "tag": "alumni_network",
+      "patterns": [
+        "Jaringan alumni FTI UKSW",
+        "Apa yang dilakukan alumni FTI UKSW?",
+        "Kontribusi alumni FTI UKSW"
+      ],
+      "responses": [
+        "Jaringan alumni FTI UKSW aktif dalam memberikan dukungan kepada mahasiswa saat ini melalui mentoring, peluang kerja, dan kolaborasi dalam proyek-proyek teknologi."
+      ]
+    },
+    {
+      "tag": "student_support_services",
+      "patterns": [
+        "Layanan dukungan mahasiswa di FTI UKSW",
+        "Apa saja layanan untuk mahasiswa di FTI UKSW?",
+        "Dukungan akademik di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW menyediakan berbagai layanan dukungan untuk mahasiswa, termasuk konseling akademik, bimbingan karir, dan layanan kesehatan mental."
+      ]
+    },
+    {
+      "tag": "technology_labs",
+      "patterns": [
+        "Laboratorium teknologi di FTI UKSW",
+        "Apa saja laboratorium yang ada di FTI UKSW?",
+        "Fasilitas laboratorium di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW memiliki beberapa laboratorium teknologi, termasuk laboratorium pemrograman, laboratorium jaringan, dan laboratorium desain grafis, yang dilengkapi dengan perangkat keras dan perangkat lunak terbaru."
+      ]
+    },
+    {
+      "tag": "career_development_programs",
+      "patterns": [
+        "Program pengembangan karir di FTI UKSW",
+        "Bagaimana FTI UKSW membantu mahasiswa dalam karir?",
+        "Pelatihan karir di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW menawarkan program pengembangan karir yang mencakup pelatihan keterampilan, seminar industri, dan sesi konsultasi untuk membantu mahasiswa mempersiapkan diri memasuki dunia kerja."
+      ]
+    },
+    {
+      "tag": "innovation_and_entrepreneurship",
+      "patterns": [
+        "Program inovasi di FTI UKSW",
+        "Kewirausahaan di Fakultas Teknologi Informasi",
+        "Bagaimana FTI UKSW mendukung inovasi?"
+      ],
+      "responses": [
+        "FTI UKSW mendukung inovasi dan kewirausahaan melalui program inkubasi, kompetisi startup, dan workshop yang membantu mahasiswa mengembangkan ide bisnis mereka."
+      ]
+    },
+    {
+      "tag": "cultural_events",
+      "patterns": [
+        "Acara budaya di FTI UKSW",
+        "Apa saja acara budaya yang diadakan di FTI UKSW?",
+        "Kegiatan budaya di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW mengadakan berbagai acara budaya, termasuk festival seni, pertunjukan musik, dan pameran, untuk memperkaya pengalaman mahasiswa dan membangun komunitas."
+      ]
+    },
+    {
+      "tag": "online_courses",
+      "patterns": [
+        "Kursus online di FTI UKSW",
+        "Apakah FTI UKSW menawarkan kursus online?",
+        "Pembelajaran online di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW menawarkan berbagai kursus online yang dapat diakses oleh mahasiswa dan masyarakat umum, mencakup topik-topik seperti pemrograman, desain, dan manajemen proyek."
+      ]
+    },
+    {
+      "tag": "mentorship_programs",
+      "patterns": [
+        "Program bimbingan di FTI UKSW",
+        "Bagaimana cara mendapatkan mentor di FTI UKSW?",
+        "Bimbingan untuk mahasiswa FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW memiliki program bimbingan yang menghubungkan mahasiswa dengan alumni dan profesional di bidang teknologi, memberikan kesempatan untuk belajar dari pengalaman mereka."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "Kehidupan mahasiswa di FTI UKSW",
+        "Bagaimana kehidupan sehari-hari di FTI UKSW?",
+        "Aktivitas sosial di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "Kehidupan mahasiswa di FTI UKSW seimbang antara akademik dan kegiatan sosial, dengan banyak kesempatan untuk berpartisipasi dalam organisasi dan acara kampus."
+      ]
+    },
+    {
+      "tag": "work_study_programs",
+      "patterns": [
+        "Program kerja sambil belajar di FTI UKSW",
+        "Apakah ada program kerja untuk mahasiswa di FTI UKSW?",
+        "Kerja sambil kuliah di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW menawarkan program kerja sambil belajar yang memungkinkan mahasiswa untuk mendapatkan pengalaman kerja sambil menyelesaikan studi mereka."
+      ]
+    },
+    {
+      "tag": "guest_speakers",
+      "patterns": [
+        "Pembicara tamu di FTI UKSW",
+        "Siapa saja pembicara tamu di Fakultas Teknologi Informasi?",
+        "Kuliah tamu di FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW mengundang berbagai pembicara tamu dari industri dan akademisi untuk berbagi wawasan dan pengalaman mereka dengan mahasiswa."
+      ]
+    },
+    {
+      "tag": "certification_programs",
+      "patterns": [
+        "Program sertifikasi di FTI UKSW",
+        "Apakah FTI UKSW menawarkan sertifikasi?",
+        "Sertifikasi untuk mahasiswa FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW menawarkan program sertifikasi di berbagai bidang teknologi, membantu mahasiswa meningkatkan keterampilan dan daya saing mereka di pasar kerja."
+      ]
+    },
+    {
+      "tag": "networking_opportunities",
+      "patterns": [
+        "Peluang jaringan di FTI UKSW",
+        "Bagaimana cara membangun jaringan di FTI UKSW?",
+        "Networking untuk mahasiswa FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW menyediakan berbagai peluang jaringan melalui acara, seminar, dan kolaborasi dengan industri, memungkinkan mahasiswa untuk terhubung dengan profesional."
+      ]
+    },
+    {
+      "tag": "health_and_wellness_services",
+      "patterns": [
+        "Layanan kesehatan di FTI UKSW",
+        "Apa saja layanan kebugaran untuk mahasiswa di FTI UKSW?",
+        "Kesehatan mental di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW menyediakan layanan kesehatan dan kebugaran, termasuk konseling psikologis dan program kebugaran untuk mendukung kesejahteraan mahasiswa."
+      ]
+    },
+    {
+      "tag": "sustainability_initiatives",
+      "patterns": [
+        "Inisiatif keberlanjutan di FTI UKSW",
+        "Apa yang dilakukan FTI UKSW untuk lingkungan?",
+        "Keberlanjutan di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW berkomitmen untuk keberlanjutan dengan mengimplementasikan inisiatif ramah lingkungan dalam kegiatan akademik dan operasionalnya."
+      ]
+    },
+    {
+      "tag": "student_competitions",
+      "patterns": [
+        "Kompetisi mahasiswa di FTI UKSW",
+        "Apa saja kompetisi yang diadakan di FTI UKSW?",
+        "Lomba teknologi di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW mengadakan berbagai kompetisi untuk mahasiswa, termasuk lomba pemrograman, hackathon, dan kompetisi desain, untuk mendorong kreativitas dan inovasi."
+      ]
+    },
+    {
+      "tag": "online_forums_and_communities",
+      "patterns": [
+        "Forum online di FTI UKSW",
+        "Apakah ada komunitas online untuk mahasiswa FTI UKSW?",
+        "Diskusi online di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW memiliki forum online dan komunitas di mana mahasiswa dapat berdiskusi, berbagi informasi, dan saling mendukung dalam studi mereka."
+      ]
+    },
+    {
+      "tag": "library_resources",
+      "patterns": [
+        "Sumber daya perpustakaan di FTI UKSW",
+        "Apa saja yang tersedia di perpustakaan FTI UKSW?",
+        "Perpustakaan di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "Perpustakaan FTI UKSW menyediakan akses ke berbagai sumber daya, termasuk buku, jurnal, dan database elektronik untuk mendukung penelitian dan pembelajaran."
+      ]
+    },
+    {
+      "tag": "field_trips",
+      "patterns": [
+        "Kunjungan lapangan di FTI UKSW",
+        "Apakah FTI UKSW mengadakan kunjungan lapangan?",
+        "Kegiatan lapangan untuk mahasiswa FTI UKSW"
+      ],
+      "responses": [
+        "FTI UKSW mengadakan kunjungan lapangan ke perusahaan dan institusi teknologi untuk memberikan pengalaman praktis kepada mahasiswa."
+      ]
+    },
+    {
+      "tag": "cultural_exchange_programs",
+      "patterns": [
+        "Program pertukaran budaya di FTI UKSW",
+        "Apakah ada program pertukaran budaya di FTI UKSW?",
+        "Kegiatan budaya di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW menawarkan program pertukaran budaya yang memungkinkan mahasiswa untuk belajar tentang budaya lain dan memperluas wawasan mereka."
+      ]
+    },
+    {
+      "tag": "technology_conferences",
+      "patterns": [
+        "Konferensi teknologi di FTI UKSW",
+        "Apa saja konferensi yang diadakan di FTI UKSW?",
+        "Acara konferensi di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW menyelenggarakan dan berpartisipasi dalam berbagai konferensi teknologi, memberikan platform bagi mahasiswa dan akademisi untuk berbagi penelitian dan inovasi."
+      ]
+    },
+    {
+      "tag": "student_awards_and_recognition",
+      "patterns": [
+        "Penghargaan untuk mahasiswa FTI UKSW",
+        "Apa saja penghargaan yang diberikan di FTI UKSW?",
+        "Pengakuan untuk mahasiswa berprestasi di Fakultas Teknologi Informasi"
+      ],
+      "responses": [
+        "FTI UKSW memberikan penghargaan kepada mahasiswa berprestasi dalam berbagai bidang, termasuk akademik, penelitian, dan kegiatan ekstrakurikuler."
+      ]
+    },
+    {
+      "tag": "feedback_mechanisms",
+      "patterns": [
+        "Bagaimana cara memberikan umpan balik di FTI UKSW?",
+        "Umpan balik mahasiswa di Fakultas Teknologi Informasi",
+        "Sistem umpan balik di FTI UKSW"
+      ],
+      "responses": [
+        "Mahasiswa FTI UKSW dapat memberikan umpan balik melalui survei, forum diskusi, atau langsung kepada dosen dan staf untuk meningkatkan kualitas pendidikan."
       ]
     }
   ]
